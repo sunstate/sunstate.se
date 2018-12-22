@@ -1,6 +1,13 @@
 const path = require("path");
 
 module.exports = {
+  lintOnSave: true,
+  devServer: {
+    overlay: {
+      warnings: true,
+      errors: true
+    }
+  },
   configureWebpack: {
     resolve: {
       alias: {
