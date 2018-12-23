@@ -1,5 +1,7 @@
 <template>
-  <div/>
+  <div>
+    test
+  </div>
 </template>
 
 <script lang="ts">
@@ -11,4 +13,5 @@ import { Vue, Component } from "vue-property-decorator";
 export default class menu extends Vue {}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>
